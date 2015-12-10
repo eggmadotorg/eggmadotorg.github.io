@@ -1,0 +1,25 @@
+<html><head>
+<script language=JavaScript>
+function cal() {
+	var s;
+s=""+ (1+u.head.selectedIndex)*(3.0*(1+u.eyes.selectedIndex)+4.5*(1+u.hair.selectedIndex)+2*u.complexion.selectedIndex); 
+	u.results.value=s;
+	alert("Your personality is " + s);
+}
+</script>
+</head><body bgcolor="#5f3751">
+<form name=u>
+<font size=8>
+Eyes: <select name=eyes><option value=1>brown<option value=2>blue<option value=3>green<option value=4>black<option value=5>gray</select>
+
+<br>Hair: <select name=hair><option value=1>brown<option value=2>blond<option value=3>black<option value=4>red<option value=5>gray lol</select>
+
+<br>Complexion: <select name=complexion><option value=1>brown<option value=2>fair<option value=3>green<option value=4>black<option value=5>tan</select>
+
+<br>Head: <select name=head><option value=1>small<option value=2>medium<option value=3>large</select>
+<br>Score: <input type=text name=results>
+<br><input type=button value=Score onclick="javascript:cal()">
+</font>
+</form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html>
+	<head>
+		<title>Test Form</title>
+	</head>
+	<body>
+		<form method="post">
+		Name:
+		<input type="text" size="12" maxlength="12" name="name"><br />
+		Password:
+		<input type="password" size="12" maxlength="36" name="passw"><br />
+		Gender:<br />
+		Male:
+		<input type="radio" value="Male" name="gender"><br />
+		Female:
+		<input type="radio" value="Female" name="gender"><br />
+		Favorite Food:<br />
+		Steak:
+		<input type="checkbox" value="Steak" name="food[]"><br />
+		Pizza:
+		<input type="checkbox" value="Pizza" name="food[]"><br />
+		Chicken:
+		<input type="checkbox" value="Chicken" name="food[]"><br />
+		<textarea rows="5" cols="20" name="quote" wrap="physical">Enter your favorite quote!</textarea><br />
+		Select a Level of Education:<br />
+		<select name="education">
+			<option value="Jr.High">Jr.High</option>
+			<option value="HighSchool">HighSchool</option>
+			<option value="College">College</option>
+		</select><br />
+		<input name="Submit" type="submit" value="Submit" />
+	</body>
+</html>
